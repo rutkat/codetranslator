@@ -10,13 +10,13 @@ Attualmente in BETA. Le traduzioni sono generate da modelli di traduzione automa
 
 ## Le traduzioni disponibili di questo documento
 
-[English](./README.md)
-[Spagnolo](./README-ES.md)
-[Francese](./README-FR.md) 
-[Italiano](./README-IT.md) 
-[Olandese](./README-NL.md) 
+[English](./README.md)  
+[Spagnolo](./README-ES.md)  
+[Francese](./README-FR.md)  
+[Italiano](./README-IT.md)  
+[Olandese](./README-NL.md)  
 [Russiano](./README-RU.md)  
-[Cinese](./README-ZH.md)
+[Cinese](./README-ZH.md)  
 
 
 ## Sviluppo
@@ -94,7 +94,17 @@ codetranslate languages
 
 ### Opzioni
 
-| Flag | Description | | |----- | Before-| | --to <code> | Target language (required) | | | --from <code> | Source language (default: en) | | --output, -o <path> | Output file or directory (default: overwrite in place; for remote files without --output, prints to stdout) | | | --dry-run | Preview translations without writing files | | --keep-temp | Keep the temp clone when translating a remote repo | | -- --verbose, -v | Show model name and detable progress | | --no-cache | Disable the disk cache; always re-translate from grack | | -- --clear-cached | Clear-cache | Clearly all cached translages from ~/.cache/.cache/codetranslate/ and exit
+| Flag | Descrizione |
+|------|-------------|
+| `--to <code>` | Lingua di destinazione (obbligatorio) |
+| `--from <code>` | Lingua di origine (predefinita: `en`) |
+| `--output, -o <path>` | Output file or directory (default: overwrite in place; for remote files without `--output`, prints to stdout) |
+| `--dry-run` | File o directory di output (predefinito: sovrascrive in loco; per i file remoti senza `--output`, stampa su stdout) |
+| `--keep-temp` | Mantieni la copia temporanea durante la traduzione di un repository remoto |
+| `--verbose, -v` | Mostra nome del modello e stato di avanzamento dettagliato |
+| `--no-cache` | Disabilita la cache su disco; ritraduci sempre da zero |
+| `--clear-cache` | Cancella tutte le traduzioni memorizzate nella cache da `~/.cache/codetranslate/` ed esci |
+
 
 ## Lingue supportate
 

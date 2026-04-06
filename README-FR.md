@@ -11,13 +11,14 @@ Actuellement en version bêta. Les traductions sont générées par des modèles
 
 ## Traductions disponibles de ce document
 
-[Anglais](./README.md)
-[Espagnol](./README-ES.md)
-[Français](./README-FR.md)
-[Italien](./README-IT.md)
-[Néerlandais](./README-NL.md)
-[Russe](./README-RU.md)
-[Chinois](./README-ZH.md)
+[Anglais](./README.md)  
+[Espagnol](./README-ES.md)  
+[Français](./README-FR.md)  
+[Italien](./README-IT.md)  
+[Néerlandais](./README-NL.md)  
+[Russe](./README-RU.md)  
+[Chinois](./README-ZH.md)  
+
  
 ## Développement
 
