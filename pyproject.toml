@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codetranslate"
+version = "0.2.0"
+description = "Translate comments, docstrings, and Markdown docs in codebases using Helsinki-NLP/OPUS-MT models"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "transformers>=4.40",
+    "sentencepiece>=0.2",
+    "torch>=2.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
+
+[project.scripts]
+codetranslate = "code_translate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
