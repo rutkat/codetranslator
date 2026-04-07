@@ -1,2 +1,2 @@
 [console_scripts]
-codetranslate = code_translate.cli:main
+codetranslate = codetranslate.cli:main

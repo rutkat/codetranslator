@@ -1,2 +1,0 @@
-[console_scripts]
-code-translate = code_translate.cli:main

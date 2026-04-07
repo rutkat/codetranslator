@@ -8,9 +8,6 @@ LANGUAGES: dict[str, str] = {
     "it": "Italian",
     "nl": "Dutch",
     "ru": "Russian",
-    "sv": "Swedish",
-    "uk": "Ukrainian",
-    "vi": "Vietnamese",
     "zh": "Chinese",
 }
 
