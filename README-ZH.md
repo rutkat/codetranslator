@@ -62,7 +62,7 @@ python -m pytest tests/test_parsers.py -v
 python -m pytest tests/test_parsers.py::TestParsePythonFile::test_extracts_docstrings -v
 
 # Run with coverage
-python -m pytest tests/ --cov=code_translate
+python -m pytest tests/ --cov=codetranslate
 
 # Use the CLI — local path
 codetranslate translate <path> --to <lang> [--from en] [--output <dir>] [--dry-run]

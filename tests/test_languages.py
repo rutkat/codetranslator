@@ -2,7 +2,7 @@
 
 import pytest
 
-from code_translate.languages import list_languages, resolve_model
+from codetranslate.languages import list_languages, resolve_model
 
 
 class TestListLanguages:

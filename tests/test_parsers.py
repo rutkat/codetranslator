@@ -3,7 +3,7 @@
 from pathlib import Path
 import textwrap
 
-from code_translate.parsers import parse_file, _parse_markdown, _parse_code_file, ParseResult
+from codetranslate.parsers import parse_file, _parse_markdown, _parse_code_file, ParseResult
 
 
 FIXTURES = Path(__file__).parent / "fixtures"

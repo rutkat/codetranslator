@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: codetranslate
-Version: 0.2.0
+Version: 0.2.3
 Summary: Translate comments, docstrings, and Markdown docs in codebases using Helsinki-NLP/OPUS-MT models
 License-Expression: MIT
 Requires-Python: >=3.10

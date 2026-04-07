@@ -3,9 +3,9 @@
 from pathlib import Path
 import tempfile
 
-from code_translate.parsers import ParseResult, parse_file
-from code_translate.translator import TranslatedSegment
-from code_translate.writers import write_translated
+from codetranslate.parsers import ParseResult, parse_file
+from codetranslate.translator import TranslatedSegment
+from codetranslate.writers import write_translated
 
 
 FIXTURES = Path(__file__).parent / "fixtures"

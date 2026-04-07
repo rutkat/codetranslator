@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "codetranslate"
-version = "0.2.0"
+version = "0.2.3"
 description = "Translate comments, docstrings, and Markdown docs in codebases using Helsinki-NLP/OPUS-MT models"
 license = "MIT"
 requires-python = ">=3.10"
@@ -23,7 +23,7 @@ dev = [
 ]
 
 [project.scripts]
-codetranslate = "code_translate.cli:main"
+codetranslate = "codetranslate.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

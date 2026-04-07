@@ -2,7 +2,7 @@
 
 import pytest
 
-from code_translate.git import is_github_url, is_github_file_url, normalize_url, clone_repo, parse_github_file_url
+from codetranslate.git import is_github_url, is_github_file_url, normalize_url, clone_repo, parse_github_file_url
 
 
 class TestIsGitHubUrl:
